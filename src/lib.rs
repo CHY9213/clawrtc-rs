@@ -223,6 +223,7 @@ impl CpuArch {
 ///
 /// Generates an Ed25519 keypair and derives an RTC address
 /// from the SHA-256 hash of the public key.
+#[derive(Debug)]
 pub struct Wallet {
     signing_key: SigningKey,
 }
